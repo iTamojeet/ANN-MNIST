@@ -8,20 +8,20 @@ A simple Artificial Neural Network (ANN) project for classifying handwritten dig
 - `outputs/` - Output files (e.g., plots)
 - `data/` - MNIST data (not included in repo)
 
-## Setup
+## Setup (with uv)
 1. Clone the repository:
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/iTamojeet/ANN-MNIST.git
    cd ANN-MNIST
    ```
-2. (Recommended) Create and activate a virtual environment:
+2. (Recommended) Create and activate a virtual environment using uv:
    ```bash
-   python3 -m venv .venv
+   uv venv .venv
    source .venv/bin/activate
    ```
-3. Install dependencies:
+3. Install dependencies with uv:
    ```bash
-   pip install -r requirements.txt
+   uv pip install -r requirements.txt
    ```
 
 ## Usage
